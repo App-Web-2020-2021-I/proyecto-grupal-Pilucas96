@@ -1,31 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
-    <title>Proyecto Grupal</title>
-  </head>
-  <body class="bg-light">
-      <div class="container bg-white">
-          <div class="bg-danger row">
-              <div class="col-6 py-3">
-                  <div class="d-inline-block" id="logo">
-                      <img src="logo.png" alt="logo" class="img-fluid">
-                  </div>
-                  <div class="d-inline-block text-white h1">
-                   nombre pagina   
-                  </div>
-              </div>
-              <div class="col-6">
-                <div class="row">
-                    <form class="d-inline-block">
-                        <input type="text" placeholder="Buscar">
+    <title>PROYECTO GRUPAL</title>
+</head>
+<body class="bg-light">
+    <div class="container bg-white">
+        <div class="bg-danger row">
+            <div class="col-6 py-3">
+                <div class="d-inline-block" id="logo">
+                    <img src="logo.png" alt="Logo" class="img-fluid">
+                </div>
+                <div class="d-inline-block text-white h1">
+                    Nombre página
+                </div>
+            </div>
+            <div class="col-6 p-2">
+                <div class="row text-right">
+                    <form class="d-inline-block form-inline">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-white">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </div>
+                            <input type="text" placeholder="Buscar" class="form-control">
+                        </div>
                     </form>
                     <div class="ml-3 text-right d-inline-block">
                         <button class="btn btn-danger" type="button" data-toggle="modal" data-target="#modalLogin">
@@ -37,21 +41,385 @@
                         </button>
                     </div>
                 </div>
-                <div class="row ">
-                    <ul class="list-inline ">
-                        <li class="list-inline-item">Menu 1</li>
-                        <li class="list-inline-item">Menu 2</li>
-                        <li class="list-inline-item">Menu 3</li>
+                <div class="mt-2">
+                    <ul class="list-group list-group-horizontal text-center">
+                        <li class="list-group-item list-group-item-action">Menu 1</li>
+                        <li class="list-group-item list-group-item-action">Menu 2</li>
+                        <li class="list-group-item list-group-item-action">Menu 3</li>
                     </ul>
                 </div>
             </div>
-          </div>
-          <div class="col-6">
-              cuerpo
-          </div>
-          <div class="bg-danger row text-white" >
-              <div class="col-6" id="redes">
-                  <a href="" class="text-white">
+        </div>
+        <div>
+            <div class="display-1 text-center">
+                Carrusel
+            </div>
+
+            <div id="categorias">
+                <div class="categoria">
+                    <div class="h3">
+                        Categoría 1
+                    </div>
+                    <div class="categoria-items row flex-nowrap">
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="categoria">
+                    <div class="h3">
+                        Categoría 2
+                    </div>
+                    <div class="categoria-items row flex-nowrap">
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="categoria">
+                    <div class="h3">
+                        Categoría 3
+                    </div>
+                    <div class="categoria-items row flex-nowrap">
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categoria-item col-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/150/250" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-text">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-danger row text-white">
+            <div class="col-6" id="redes">
+                <a href="" class="text-white">
                     <i class="fab fa-facebook-f"></i>
                   </a>
                   <a href="" class="text-white">
@@ -60,15 +428,15 @@
                   <a href="" class="text-white">
                     <i class="fab fa-instagram"></i>
                   </a>
-              </div>
-              <div class="col-6 text-right">
-                  Cantáctanos
-              </div>
-          </div>
-      </div>
-    
-     <!-- Modal de login -->
-     <div class="modal fade" id="modalLogin" tabindex="-1">
+            </div>
+            <div class="col-6 text-right">
+                Contáctanos
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de login -->
+    <div class="modal fade" id="modalLogin" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -100,6 +468,7 @@
             </div>
         </div>
     </div>
+
     <!-- Modal de registro -->
     <div class="modal fade" id="modalRegistro" tabindex="-1">
         <div class="modal-dialog modal-lg">
@@ -149,8 +518,9 @@
             </div>
         </div>
     </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
 </html>
